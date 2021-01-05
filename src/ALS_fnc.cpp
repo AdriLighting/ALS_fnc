@@ -13,3 +13,5 @@ void ALS_fnc_lampClear(){
 	ALS_fncArray[0]->_function(0);}
 void ALS_fnc_lampBri(uint8_t v){
 	ALS_fncArray[1]->_function(v);}
+void ALS_fnc_run(int pos, uint8_t v){
+	ALS_fncArray[pos]->_function(v);}	

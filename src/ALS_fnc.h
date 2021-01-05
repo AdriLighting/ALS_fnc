@@ -17,4 +17,5 @@
 	
 	void ALS_fnc_lampClear();
 	void ALS_fnc_lampBri(uint8_t v);
+	void ALS_fnc_run(int pos, uint8_t v);
 #endif
