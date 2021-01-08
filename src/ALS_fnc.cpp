@@ -1,4 +1,5 @@
 #include "ALS_fnc.h"
+
 ALS_fnc 	* ALS_fncArray[10];
 int 		ALS_fncArray_pos = 0;
 void ALS_fnc_add(ALS_fncExt f) {
